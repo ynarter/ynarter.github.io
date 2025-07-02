@@ -9,7 +9,7 @@ title: "Yiğit Narter"
 
 _PhD Student in Electrical Engineering_  
 _University of Michigan_  
-[LinkedIn](https://www.linkedin.com/in/yourprofile) • [GitHub](https://github.com/ynarter) • [CV](assets/cv_yigit_narter.pdf)
+[LinkedIn](https://www.linkedin.com/in/yigit-narter) • [GitHub](https://github.com/ynarter) • [CV](assets/cv_yigit_narter.pdf)
 
 ---
 
