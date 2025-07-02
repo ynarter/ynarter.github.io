@@ -11,7 +11,14 @@ _University of Michigan_
 
 ## About Me
 
-I am a PhD student in Electrical and Computer Engineering at the University of Michigan, advised by Prof. Inigo Incer. My research focuses on **convex optimization**, **machine learning**, and their applications in **signal processing** and **healthcare**.
+
+I am a PhD student in Electrical and Computer Engineering at the University of Michigan, advised by Prof. Inigo Incer. My research interests lie at the intersection of **convex optimization**, **machine learning**, and **signal processing**, with applications in healthcare and communication systems. I am also passionate about **control systems**, and I am currently part of the [Complex Engineering Systems Laboratory](https://ces.eecs.umich.edu/).
+
+I received my B.S. in Electrical and Electronics Engineering from Bilkent University. During my undergraduate studies, I conducted research at **Bilkent University**, **EPFL**, and **METEKSAN Defence**, gaining hands-on experience in both theoretical modeling and real-world implementation of radar and neural network-based systems.
+
+My recent research, in collaboration with Prof. Cem Tekin and Prof. Mihaela van der Schaar, focuses on developing a unified screening strategy for multiple diseases through a novel **convex optimization framework**, accepted at ICML 2025.
+
+I am passionate about bridging rigorous mathematical tools with impactful real-world problems.
 
 
 ---
@@ -19,10 +26,10 @@ I am a PhD student in Electrical and Computer Engineering at the University of M
 ## Research Interests
 
 - Convex Optimization & Applied Probability  
-- Signal & Image Processing  
+- Signal & Image Processing
+- Control Systems  
 - Machine Learning and Neural Networks  
 - Health AI and Medical Decision Making  
-- Semantic Communications
 
 ---
 
