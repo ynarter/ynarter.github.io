@@ -17,7 +17,6 @@ _University of Michigan_
 
 I am a PhD student in Electrical and Computer Engineering at the University of Michigan, advised by Prof. Inigo Incer. My research focuses on **convex optimization**, **machine learning**, and their applications in **signal processing** and **healthcare**.
 
-Previously, I received my B.S. in Electrical and Electronics Engineering from Bilkent University, where I graduated as the top student in my class. I also conducted research at EPFL and METEKSAN Defense, working on radar systems and medical decision-making.
 
 ---
 
@@ -49,7 +48,7 @@ Submitted to ICML 2025. [[preprint]](link) [[code]](link)
 
 ## Contact
 
-📫 **Email**: your.email@umich.edu  
+📫 **Email**: narter@umich.edu  
 📍 **Office**: EECS Building, University of Michigan  
 💬 I’m always happy to talk about research, collaborations, or mentoring!
 
