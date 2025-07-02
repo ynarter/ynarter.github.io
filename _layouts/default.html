@@ -3,19 +3,27 @@
   <head>
     <meta charset="UTF-8">
     {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Fonts and CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <!-- Replace "your-kit-code" with a real kit from fontawesome.com (or use CDN below if you want free icons only): -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+
     <style>
       .btn {
-        font-size: 1.1em;
+        font-size: 1.3em;
         font-weight: bold;
-        padding: 12px 24px;
-        border-radius: 6px;
-        margin: 6px 8px;
+        padding: 16px 28px;
+        border-radius: 8px;
+        margin: 10px 12px;
         text-align: center;
         display: inline-block;
         color: white;
@@ -23,37 +31,34 @@
         transition: background 0.3s ease, transform 0.2s ease;
       }
 
+      .btn i {
+        margin-right: 8px;
+      }
+
       .btn:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.25);
       }
 
-      .btn-github {
-        background: #333;
-      }
-
-      .btn-bio {
-        background: linear-gradient(135deg, #4a90e2, #357ABD);
-      }
-
-      .btn-cv {
-        background: linear-gradient(135deg, #9013fe, #6A0DAD);
-      }
-
-      .btn-return {
-        background: linear-gradient(135deg, #2ecc71, #27ae60);
-      }
+      .btn-github    { background: #24292e; }
+      .btn-linkedin  { background: #0077B5; }
+      .btn-bio       { background: linear-gradient(135deg, #4a90e2, #357ABD); }
+      .btn-cv        { background: linear-gradient(135deg, #9013fe, #6A0DAD); }
+      .btn-return    { background: linear-gradient(135deg, #2ecc71, #27ae60); }
+      .btn-pubs      { background: linear-gradient(135deg, #f39c12, #e67e22); }
+      .btn-contact   { background: linear-gradient(135deg, #e74c3c, #c0392b); }
 
       .header-photo {
-        max-width: 200px;
+        max-width: 220px;
         width: 100%;
         height: auto;
         border-radius: 100%;
         display: block;
-        margin: 20px auto 10px auto;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        margin: 25px auto 15px auto;
+        box-shadow: 0 8px 14px rgba(0,0,0,0.25);
       }
     </style>
+
     {% include head-custom.html %}
   </head>
   <body>
@@ -67,17 +72,30 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn btn-github">View on GitHub</a>
+      {% if page.show_social %}
+        <a href="{{ page.github_url | default: site.github_url }}" class="btn btn-github" target="_blank">
+          <i class="fab fa-github"></i>GitHub
+        </a>
+        <a href="{{ page.linkedin_url | default: site.linkedin_url }}" class="btn btn-linkedin" target="_blank">
+          <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
       {% endif %}
 
       {% if page.show_downloads %}
-        <a href="https://ynarter.github.io/bio.html" class="btn btn-bio">Bio</a>
-        <a href="assets/cv_yigit_narter.pdf" class="btn btn-cv">CV</a>
+        <a href="/bio.html" class="btn btn-bio"><i class="fas fa-user"></i>Bio</a>
+        <a href="/assets/cv_yigit_narter.pdf" class="btn btn-cv"><i class="fas fa-file-pdf"></i>CV</a>
+      {% endif %}
+
+      {% if page.show_publications %}
+        <a href="/publications.html" class="btn btn-pubs"><i class="fas fa-book"></i>Publications</a>
+      {% endif %}
+
+      {% if page.show_contact %}
+        <a href="/contact.html" class="btn btn-contact"><i class="fas fa-envelope"></i>Contact</a>
       {% endif %}
 
       {% if page.return %}
-        <a href="https://ynarter.github.io" class="btn btn-return">Return to main page</a>
+        <a href="https://ynarter.github.io" class="btn btn-return"><i class="fas fa-arrow-left"></i>Return</a>
       {% endif %}
     </header>
 
