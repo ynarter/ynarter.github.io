@@ -1,0 +1,32 @@
+title: "Yiğit Narter"
+description: "PhD Student in Electrical Engineering at the University of Michigan"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # your GitHub Pages URL
+author: "Yiğit Narter"
+
+# Theme
+theme: jekyll-theme-slate  # or 'minimal', 'cayman', etc.
+
+# Navigation
+show_downloads: false
+
+# Markdown processing
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Social links (optional)
+linkedin_username: yourprofile
+github_username: yourusername
+google_scholar: https://scholar.google.com/citations?user=YOURID
+
+# Exclude these files from being processed by Jekyll
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
