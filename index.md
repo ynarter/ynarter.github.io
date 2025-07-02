@@ -1,6 +1,11 @@
 ---
 show_downloads: true
 photo: /assets/photo_yigit.jpeg
+github_url: "https://github.com/ynarter"
+linkedin_url: "https://linkedin.com/in/ynarter"
+show_social: true
+show_publications: true
+show_contact: true
 ---
 <img src="assets/photo_yigit.jpeg" alt="Yiğit Narter" style="width:180px; border-radius:50%; margin-bottom: 20px;">
 
