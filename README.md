@@ -1,7 +1,3 @@
----
-layout: default
-title: "Yiğit Narter"
----
 
 <img src="assets/photo_yigit.jpeg" alt="Yiğit Narter" style="width:180px; border-radius:50%; margin-bottom: 20px;">
 
