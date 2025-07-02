@@ -13,19 +13,45 @@
       .btn {
         font-size: 1.1em;
         font-weight: bold;
-        padding: 12px 20px;
+        padding: 12px 24px;
         border-radius: 6px;
-        display: inline-block;
-        margin: 5px 6px;
+        margin: 6px 8px;
         text-align: center;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease;
       }
+
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      }
+
+      .btn-github {
+        background: #333;
+      }
+
+      .btn-bio {
+        background: linear-gradient(135deg, #4a90e2, #357ABD);
+      }
+
+      .btn-cv {
+        background: linear-gradient(135deg, #9013fe, #6A0DAD);
+      }
+
+      .btn-return {
+        background: linear-gradient(135deg, #2ecc71, #27ae60);
+      }
+
       .header-photo {
-        max-width: 140px;
+        max-width: 200px;
+        width: 100%;
         height: auto;
-        border-radius: 100px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        border-radius: 100%;
+        display: block;
+        margin: 20px auto 10px auto;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
       }
     </style>
     {% include head-custom.html %}
@@ -42,16 +68,16 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        <a href="{{ site.github.repository_url }}" class="btn btn-github">View on GitHub</a>
       {% endif %}
 
       {% if page.show_downloads %}
-        <a href="https://ynarter.github.io/bio.html" class="btn">Bio</a>
-        <a href="assets/cv_yigit_narter.pdf" class="btn">CV</a>
+        <a href="https://ynarter.github.io/bio.html" class="btn btn-bio">Bio</a>
+        <a href="assets/cv_yigit_narter.pdf" class="btn btn-cv">CV</a>
       {% endif %}
 
       {% if page.return %}
-        <a href="https://ynarter.github.io" class="btn">Return to main page</a>
+        <a href="https://ynarter.github.io" class="btn btn-return">Return to main page</a>
       {% endif %}
     </header>
 
