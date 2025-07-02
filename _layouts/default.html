@@ -12,11 +12,10 @@
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <!-- Font Awesome for Icons -->
-    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
-    <!-- Replace "your-kit-code" with a real kit from fontawesome.com (or use CDN below if you want free icons only): -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-T0P0QDlKoF4+6t8vfnYI0oVOkQspMCVoG0HNNDb3lh2l3E3nKZOLr1BBLqgP0S+WAvwXU1prtvWzEIBkLKHg5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Custom Styling -->
     <style>
       .btn {
         font-size: 1.3em;
@@ -32,7 +31,7 @@
       }
 
       .btn i {
-        margin-right: 8px;
+        margin-right: 10px;
       }
 
       .btn:hover {
@@ -61,6 +60,7 @@
 
     {% include head-custom.html %}
   </head>
+
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
@@ -72,15 +72,6 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
-      {% if page.show_social %}
-        <a href="{{ page.github_url | default: site.github_url }}" class="btn btn-github" target="_blank">
-          <i class="fab fa-github"></i>GitHub
-        </a>
-        <a href="{{ page.linkedin_url | default: site.linkedin_url }}" class="btn btn-linkedin" target="_blank">
-          <i class="fab fa-linkedin"></i>LinkedIn
-        </a>
-      {% endif %}
-
       {% if page.show_downloads %}
         <a href="/bio.html" class="btn btn-bio"><i class="fas fa-user"></i>Bio</a>
         <a href="/assets/cv_yigit_narter.pdf" class="btn btn-cv"><i class="fas fa-file-pdf"></i>CV</a>
@@ -88,6 +79,15 @@
 
       {% if page.show_publications %}
         <a href="/publications.html" class="btn btn-pubs"><i class="fas fa-book"></i>Publications</a>
+      {% endif %}
+
+      {% if page.show_social %}
+        <a href="{{ page.github_url | default: site.github_url }}" class="btn btn-github" target="_blank">
+          <i class="fab fa-github"></i>GitHub
+        </a>
+        <a href="{{ page.linkedin_url | default: site.linkedin_url }}" class="btn btn-linkedin" target="_blank">
+          <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
       {% endif %}
 
       {% if page.show_contact %}
@@ -104,7 +104,11 @@
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+          <span class="site-footer-owner">
+            <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>
+            is maintained by
+            <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+          </span>
         {% endif %}
         <span class="site-footer-credits"> </span>
       </footer>
