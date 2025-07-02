@@ -3,13 +3,13 @@ layout: default
 title: "Yiğit Narter"
 ---
 
-<img src="photo.jpg" alt="Yiğit Narter" style="width:180px; border-radius:50%; margin-bottom: 20px;">
+<img src="assets/photo.jpg" alt="Yiğit Narter" style="width:180px; border-radius:50%; margin-bottom: 20px;">
 
 # Yiğit Narter
 
 _PhD Student in Electrical Engineering_  
 _University of Michigan_  
-[LinkedIn](https://www.linkedin.com/in/yourprofile) • [Google Scholar](https://scholar.google.com/citations?user=YOURID) • [GitHub](https://github.com/ynarter) • [CV](cv.pdf)
+[LinkedIn](https://www.linkedin.com/in/yourprofile) • [GitHub](https://github.com/ynarter) • [CV](assets/cv.pdf)
 
 ---
 
