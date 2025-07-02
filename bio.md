@@ -10,7 +10,7 @@ return: true
 
 - **Ph.D., Electrical and Computer Engineering**  
   _[University of Michigan](https://umich.edu), Ann Arbor, MI_  
-  Advisor: [Prof. Inigo Incer](https://www.eecs.umich.edu/people/faculty/incer-inigo.html)  
+  Advisor: [Prof. Inigo Incer](https://iincer.github.io/)  
   2025 – present  
 
 - **Bachelor of Science, Electrical and Electronics Engineering**  
@@ -20,8 +20,7 @@ return: true
 
 - **Exchange Program, Electrical and Electronics Engineering**  
   _[École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch), Lausanne, Switzerland_  
-  Spring 2024  
-  ERASMUS+ Exchange Semester
+  Spring 2024
 
 ---
 
