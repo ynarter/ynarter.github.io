@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Bio"
-permalink: https://ynarter.github.io/bio/
 ---
 
 # Bio
