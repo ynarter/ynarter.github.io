@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Bio"
-permalink: /bio/
 ---
 
 # Bio
@@ -30,11 +29,11 @@ ERASMUS+ Exchange Semester
 
 **Research Excellence Award**  
 Bilkent University, 2025  
-Given to the most outstanding undergraduate researcher
+Given to the most outstanding undergraduate researchers
 
 **Academic Excellence Award**  
 Bilkent University, 2025  
-Awarded to the top-performing student in the graduating class
+Awarded to the top-performing students in the graduating class
 
 **Swiss European Mobility Programme (SEMP) Scholarship**  
 EPFL, Spring 2024  
