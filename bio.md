@@ -1,10 +1,8 @@
 ---
 layout: default
 title: "Bio"
-description: [Return to main page](https://ynarter.github.io/)
----
-
-# Bio
+description: 
+show_downloads: False
 ---
 
 ## Education
@@ -54,3 +52,8 @@ description: [Return to main page](https://ynarter.github.io/)
 ---
 
 _Last updated: July 2025_
+
+---
+
+[Return to main page](https://ynarter.github.io/)
+
