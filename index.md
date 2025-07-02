@@ -12,13 +12,12 @@ show_contact: true
 ## About Me
 
 
-I am a PhD student in Electrical and Computer Engineering at the University of Michigan, advised by Prof. Inigo Incer. My research interests lie at the intersection of **convex optimization**, **machine learning**, and **signal processing**, with applications in healthcare and communication systems. I am also passionate about **control systems**, and I am currently part of the [Complex Engineering Systems Laboratory](https://ces.eecs.umich.edu/).
+I’m a Ph.D. student in Electrical and Computer Engineering at the **University of Michigan**, advised by [Prof. Inigo Incer](https://iincer.github.io/). My research sits at the crossroads of **convex optimization, machine learning, signal processing**, and **the compositional design and verification of complex engineering systems**. I am a proud member of the [Complex Engineering Systems Laboratory](https://ces.eecs.umich.edu/), where we develop rigorous theory and methodologies to design, verify, and analyze complex systems, applying tools from control, formal methods, AI, optimization, and more, with real-world applications in aerospace, autonomous vehicles, and synthetic biology.
 
-I received my B.S. in Electrical and Electronics Engineering from Bilkent University. During my undergraduate studies, I conducted research at **Bilkent University**, **EPFL**, and **METEKSAN Defence**, gaining hands-on experience in both theoretical modeling and real-world implementation of radar and neural network-based systems.
+Before Michigan, I earned my B.S. in Electrical and Electronics Engineering from Bilkent University. During my undergrad, I gained hands-on experience conducting research at Bilkent University and EPFL, working on projects ranging from radar systems to neural network-based algorithms. A recent highlight of my work is a first-author [paper](https://openreview.net/pdf?id=z4XS0Ie391) on a unified screening strategy for multiple diseases, which was accepted at the [**_International Conference on Machine Learning (ICML)_ 2025**](https://icml.cc/). You can find more details about my academic background and research on my [Bio](./bio.html) and [Publications](./publications.html) pages.
 
-My recent research, in collaboration with Prof. Cem Tekin and Prof. Mihaela van der Schaar, focuses on developing a unified screening strategy for multiple diseases through a novel **convex optimization framework**, accepted at ICML 2025.
+My goal is to bridge rigorous mathematical tools with impactful real-world problems, designing methods that advance both theory and practical solutions. Please feel free to [reach out](./contacts.html) anytime!
 
-I am passionate about bridging rigorous mathematical tools with impactful real-world problems.
 
 
 ---
@@ -26,34 +25,10 @@ I am passionate about bridging rigorous mathematical tools with impactful real-w
 ## Research Interests
 
 - Convex Optimization & Applied Probability  
-- Signal & Image Processing
-- Control Systems  
-- Machine Learning and Neural Networks  
-- Health AI and Medical Decision Making  
+- Signal & Image Processing  
+- Compositional Design and Verification of Complex Engineering Systems  
+- Machine Learning and Neural Networks
 
----
-
-## Publications
-
-**[1] Unified Screening for Multiple Diseases**  
-_Y. Narter, A. Hüyük, M. van der Schaar, C. Tekin_  
-Submitted to ICML 2025. [[preprint]](https://openreview.net/pdf?id=z4XS0Ie391) [[code]](https://github.com/ynarter/UniScreen)
-
-
----
-
-## Awards
-
-- Academic Excellence Award – Bilkent University  
-- Research Excellence Award – Bilkent University  
-
----
-
-## Contact
-
-📫 **Email**: narter@umich.edu  
-📍 **Office**: EECS Building, University of Michigan  
-💬 I’m always happy to talk about research, collaborations, or mentoring!
 
 ---
 
