@@ -3,6 +3,7 @@ layout: default
 title: "Bio"
 description: A glimpse of my studies
 show_downloads: false
+return: true
 ---
 
 ## Education
