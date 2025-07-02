@@ -16,7 +16,7 @@ I am a Ph.D. student in Electrical and Computer Engineering at the [University o
 
 Before Michigan, I earned my B.S. in Electrical and Electronics Engineering from [Bilkent University](https://w3.bilkent.edu.tr/bilkent/). During my undergrad, I gained hands-on experience conducting research at [Bilkent University](https://w3.bilkent.edu.tr/bilkent/) and [EPFL](https://www.epfl.ch/en/), working on projects ranging from radar systems to neural network-based algorithms. A recent highlight of my work is a first-author [paper](https://openreview.net/pdf?id=z4XS0Ie391) on a unified screening strategy for multiple diseases, which was accepted at the [**_International Conference on Machine Learning (ICML)_ 2025**](https://icml.cc/). You can find more details about my academic background and research on my [Bio](./bio.html) and [Publications](./publications.html) pages.
 
-My goal is to bridge rigorous mathematical tools with impactful real-world problems, designing methods that advance both theory and practical solutions. Please feel free to [reach out](./contacts.html) anytime!
+My goal is to bridge rigorous mathematical tools with impactful real-world problems, designing methods that advance both theory and practical solutions. Please feel free to [reach out](./contact.html) anytime!
 
 
 
