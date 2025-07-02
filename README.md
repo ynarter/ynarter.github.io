@@ -30,7 +30,7 @@ I am a PhD student in Electrical and Computer Engineering at the University of M
 
 **[1] Unified Screening for Multiple Diseases**  
 _Y. Narter, A. Hüyük, M. van der Schaar, C. Tekin_  
-Submitted to ICML 2025. [[preprint]](link) [[code]](link)
+Submitted to ICML 2025. [[preprint]](https://openreview.net/pdf?id=z4XS0Ie391) [[code]](https://github.com/ynarter/UniScreen)
 
 
 ---
