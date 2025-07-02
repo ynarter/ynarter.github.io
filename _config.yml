@@ -1,11 +1,11 @@
 title: "Yiğit Narter"
 description: "PhD Student in Electrical Engineering at the University of Michigan"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # your GitHub Pages URL
+baseurl: "" 
+url: "https://ynarter.github.io"
 author: "Yiğit Narter"
 
 # Theme
-theme: jekyll-theme-slate  # or 'minimal', 'cayman', etc.
+theme: jekyll-theme-slate
 
 # Navigation
 show_downloads: false
