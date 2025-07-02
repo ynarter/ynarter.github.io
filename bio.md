@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bio"
-description: A glimpse of my studies
+description: An overview of my academic journey and achievements
 show_downloads: false
 return: true
 ---
@@ -9,17 +9,17 @@ return: true
 ## Education
 
 - **Ph.D., Electrical and Computer Engineering**  
-  _University of Michigan, Ann Arbor, MI_  
-  Advisor: Prof. Inigo Incer  
+  _[University of Michigan](https://umich.edu), Ann Arbor, MI_  
+  Advisor: [Prof. Inigo Incer](https://www.eecs.umich.edu/people/faculty/incer-inigo.html)  
   2025 – present  
 
 - **Bachelor of Science, Electrical and Electronics Engineering**  
-  Bilkent University, Ankara, Turkey  
+  _[Bilkent University](https://w3.bilkent.edu.tr/bilkent/), Ankara, Turkey_  
   Graduated: High Honor, Ranked 1st out of 242 students  
   2021 – 2025  
 
 - **Exchange Program, Electrical and Electronics Engineering**  
-  École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland  
+  _[École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch), Lausanne, Switzerland_  
   Spring 2024  
   ERASMUS+ Exchange Semester
 
@@ -57,4 +57,3 @@ _Last updated: July 2025_
 ---
 
 [Return to main page](https://ynarter.github.io/)
-
