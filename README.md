@@ -34,14 +34,9 @@ Previously, I received my B.S. in Electrical and Electronics Engineering from Bi
 ## Publications
 
 **[1] Unified Screening for Multiple Diseases**  
-_Y. Narter, C. Tekin, M. van der Schaar_  
+_Y. Narter, A. Hüyük, M. van der Schaar, C. Tekin_  
 Submitted to ICML 2025. [[preprint]](link) [[code]](link)
 
-**[2] CNN-based Radar Detection System**  
-_Y. Narter, et al._  
-Ongoing research project at METEKSAN, 2024.
-
-You can also visit my [Google Scholar](https://scholar.google.com/citations?user=YOURID) for a full list.
 
 ---
 
