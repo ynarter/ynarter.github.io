@@ -1,4 +1,5 @@
 ---
+title: Yiğit Narter
 show_downloads: true
 photo: /assets/photo_yigit.jpeg
 github_url: "https://github.com/ynarter"
