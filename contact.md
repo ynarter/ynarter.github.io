@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Contact"
-description: Get in touch with me
+description: Get in touch with me!
 show_downloads: false
 return: true
 ---
