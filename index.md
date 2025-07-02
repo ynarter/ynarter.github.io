@@ -7,15 +7,6 @@ show_social: true
 show_publications: true
 show_contact: true
 ---
-<img src="assets/photo_yigit.jpeg" alt="Yiğit Narter" style="width:180px; border-radius:50%; margin-bottom: 20px;">
-
-# Yiğit Narter
-
-_PhD Student in Electrical Engineering_  
-_University of Michigan_  
-[LinkedIn](https://www.linkedin.com/in/yigit-narter) • [GitHub](https://github.com/ynarter) • [CV](assets/cv_yigit_narter.pdf)
-
----
 
 ## About Me
 
