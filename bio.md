@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bio"
-description: 
+description: A glimpse of my studies
 show_downloads: False
 ---
 
