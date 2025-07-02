@@ -39,8 +39,8 @@
         box-shadow: 0 6px 12px rgba(0,0,0,0.25);
       }
 
-      .btn-github    { background: #24292e; }
-      .btn-linkedin  { background: #0077B5; }
+      .btn-github {background: linear-gradient(135deg, #333333, #24292e);}
+      .btn-linkedin {background: linear-gradient(135deg, #005983, #0077B5);}
       .btn-bio       { background: linear-gradient(135deg, #4a90e2, #357ABD); }
       .btn-cv        { background: linear-gradient(135deg, #9013fe, #6A0DAD); }
       .btn-return    { background: linear-gradient(135deg, #2ecc71, #27ae60); }
@@ -48,7 +48,7 @@
       .btn-contact   { background: linear-gradient(135deg, #e74c3c, #c0392b); }
 
       .header-photo {
-        max-width: 220px;
+        max-width: 300px;
         width: 100%;
         height: auto;
         border-radius: 100%;
@@ -73,29 +73,29 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
       {% if page.show_downloads %}
-        <a href="/bio.html" class="btn btn-bio"><i class="fas fa-user"></i>Bio</a>
-        <a href="/assets/cv_yigit_narter.pdf" class="btn btn-cv"><i class="fas fa-file-pdf"></i>CV</a>
+        <a href="/bio.html" class="btn btn-bio">🎓 Bio</a>
+        <a href="/assets/cv_yigit_narter.pdf" class="btn btn-cv">📄 CV</a>
       {% endif %}
 
       {% if page.show_publications %}
-        <a href="/publications.html" class="btn btn-pubs">📝 Publications</a>
+        <a href="/publications.html" class="btn btn-pubs">📚 Publications</a>
       {% endif %}
 
       {% if page.show_social %}
         <a href="{{ page.github_url | default: site.github_url }}" class="btn btn-github" target="_blank">
-          <i class="fab fa-github"></i>GitHub
+          🐱 GitHub
         </a>
         <a href="{{ page.linkedin_url | default: site.linkedin_url }}" class="btn btn-linkedin" target="_blank">
-          <i class="fab fa-linkedin"></i>LinkedIn
+          👔 LinkedIn
         </a>
       {% endif %}
 
       {% if page.show_contact %}
-        <a href="/contact.html" class="btn btn-contact"><i class="fas fa-envelope"></i>Contact</a>
+        <a href="/contact.html" class="btn btn-contact">📬 Contact</a>
       {% endif %}
 
       {% if page.return %}
-        <a href="https://ynarter.github.io" class="btn btn-return"><i class="fas fa-arrow-left"></i>Return</a>
+        <a href="https://ynarter.github.io" class="btn btn-return">🔙 Return</a>
       {% endif %}
     </header>
 
