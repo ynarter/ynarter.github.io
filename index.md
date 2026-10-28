@@ -1,4 +1,3 @@
-
 ---
 title: Yiğit Narter
 show_downloads: true
