@@ -31,7 +31,7 @@ You can learn more about my background and research through my [Bio](./bio.html)
 - **Formal Methods & Contract-Based Design:** Assume-guarantee reasoning, temporal logic, probabilistic contracts, compositional verification
 - **Linear & Convex Optimization:** Linear algebraic methods, linear programming, LP duality, polyhedral methods, variable elimination
 - **Probability & Uncertain Systems:** Probabilistic reasoning, stochastic modeling, joint probability distributions, reasoning under uncertainty
-- **Control Theory & Dynamical Systems:** Nonlinear stability, system analysis, cyber-physical systems
+- **Control Theory & Dynamical Systems:** Nonlinear stability, Lyapunov methods, system analysis
 - **Machine Learning & Neural Networks:** Deep learning, learning-enabled systems, multi-agent systems, computer vision
 
 ---
