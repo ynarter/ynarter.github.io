@@ -37,3 +37,5 @@ You can learn more about my background and research through my [Bio](./bio.html)
 ---
 
 *Last updated: October 2026*
+
+---
