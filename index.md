@@ -9,6 +9,7 @@ show_publications: true
 show_contact: true
 ---
 
+
 ## About Me
 
 Hi! I'm a Ph.D. student in Electrical and Computer Engineering at the [University of Michigan](https://umich.edu/), working with [Prof. Inigo Incer](https://iincer.github.io/) in the [Complex Engineering Systems Laboratory](https://ces.eecs.umich.edu/). My research focuses on finding both mathematical and computational ways to reason about complex systems, particularly when they involve many interacting components or uncertainty.
