@@ -7,12 +7,12 @@ return: true
 ---
 
 ✉️ **Email**: <a href="mailto:narter@umich.edu">narter@umich.edu</a>  
-📍 **Office**: TBD  
+📍 **Office**: EECS 4305  
 💬 I’m always happy to talk about research, collaborations, or mentoring!
 
 ---
 
-_Last updated: July 2025_
+_Last updated: October 2026_
 
 ---
 
